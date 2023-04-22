@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>¿Alcohol o gasolina?</h3>
+    <script>
+
+var tanque=40;
+var kilometrosNafta=480;
+var kilometrosSAlco=300;
+
+
+document.write("<h4>Litros por kilometro y kilometros por litro NAFTA<h4>")
+
+
+
+document.write("Un auto con "+tanque+" litros de nafta recorre \
+"+kilometrosNafta+" kilometros gastando \
+"+(tanque/kilometrosNafta).toFixed(2)+" litros por cada kilometro recorrido")
+
+document.write("<br>")
+
+document.write("Un auto con "+tanque+" litros de nafta recorre \
+"+kilometrosNafta+" kilometros recorriendo \
+"+( kilometrosNafta/tanque).toFixed(2)+" kilometros por cada litro")
+
+document.write("<br><br>")
+
+document.write("<h4>Litros por kilometro y kilometros por litro ALCOHOL<h4>")
+
+
+
+document.write("Un auto con "+tanque+" litros de alcohol recorre \
+"+kilometrosSAlco+" kilometros gastando \
+"+( tanque/kilometrosSAlco ).toFixed(2)+" litros por cada kilometro recorrido")
+
+document.write("<br>")
+
+document.write("Un auto con "+tanque+" litros de alcohol recorre \
+"+kilometrosSAlco+" kilometros recorriendo \
+"+( kilometrosSAlco/tanque).toFixed(2)+" kilometros por cada litro")
+
+function mostrarAlerta() {
+        alert("***" + mensajes + "***");
+    }
+
+    var edad1 = 10;
+    var edad2 = 20;
+    var edad3 = 30;
+    var totalEdades = edad1 + edad2 + edad3;
+    var promedioEdades = totalEdades/3;
+
+    mostrarAlerta("Total de edades es " + totalEdades);
+    mostrarAlerta("El promedio de las edades es " +  promedioEdades);
+
+
+</script>
+</body>
+</html>
